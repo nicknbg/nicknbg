@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+
+<!-- start of code -->
+
+<html> <!-- code that communicates the type of code we are using -->
+
+    <!-- title of webpage displayed on browser window -->
+ <title>Penguin Town</title>
+    
+<!-- main webpage title headline -->
+
+    <h1>Welcome to Penguin Town!</h1>
+<body> <!-- beginning of -->
+    
+    <!-- divides sections of pages and identifies as the "penguins" section, can be used to 
+    jump to specific section of page using a href="" link -->
+    <div id="penguins"><h1>Peguins</h1></div>
+    <p>This is a site all about penguins. There are many types of penguins.</p>
+<div id="more">
+    <p>Would you like to know more about penguins? <a href="https://en.wikipedia.org/wiki/Penguin" 
+        target="_blank">Click here for more information.</a></p>
+</div>
+<ul>
+    <li><a href="#penguins">More</a> <!-- links to a specific section of the page, "#penguins" links to the div id="penguins" in the H!-->
+    <li><a href="https://en.wikipedia.org/wiki/Penguin">Wikipedia</a></li> <!-- links to external webpage-->
+</ul>
+
+<!-- this is a table on the type of penguins, their name, region, and population numbers-->
+
+<table>
+    <tr>
+        <thead>
+    <th scope="col">Type</th>
+    <th scope="col">Region</th>
+    <th scope="col">Pop#</th>
+        </thead>
+    </tr>
+    <tr>
+        <td>Macaroni</td>
+        <td>Antarctica</td>
+        <td>9 Million</td>
+    </tr>
+    <tr>
+        <td>Emperor</td>
+        <td>Antarctica</td>
+        <td>595,000</td>
+    </tr>
+    <tr>
+    </tr>
+</table>
+
+<!-- creates a form for the user to fill -->
+<form>
+    <h2>What is your favorite type of penguin?</h2>
+<!-- a text label to guide users where for="type" connects the label to the input-->    
+    <label for="type">Enter Here!</label>
+<!-- the actual form to fill out -->
+    <input type="text" name="type" id="type">
+    <br><br> <!--creates a break in the page for spacing-->
+    <label for="why">Why?</label>
+    <input type="password" name="why" id="why">
+</form>
+
+</body>
+</html>
